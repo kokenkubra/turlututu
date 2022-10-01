@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf");
+}
+.button{
+    text-decoration: none;
+    font-family: "OpenSans-Light", serif;
+    font-weight: bolder ;
+}
+
+body{
+    background-color: rgb(75, 140, 214);
+   
+}
+.blur{
+    color: white;
+    position: absolute;
+    filter: blur(1rem);
+    left: 625px;
+    font-size: 50px;
+}
+h1{
+    font-size: 200%;
+    font-family: "OpenSans-Light", serif;
+    color: white;
+    position: absolute;
+    top: 100px; left: 600px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+.buttonstart{
+    font-size:200%;
+    color: white;
+    background-color: orange;
+    border-color: white;
+   position: relative;
+    text-align: center;
+    left: 500px;
+    border: solid;
+    border-radius: 16px;
+}
+.deadlines{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    font-family: "OpenSans-Light", serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.deadl{
+    height: 75px;
+    width: 100%;
+}
+.simple{
+    margin: 20px;
+    font-family: "OpenSans-Light", serif;
+    color: white;
+    height: 75px;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.space{
+    height: 75px;
+    width: 100%;
+    top: 700px;
+}
+.built{
+    font-family: "OpenSans-Light", serif;
+    color: white;
+    height: 75px;
+    width: 35%;
+    left: 725px;
+    top: 370px;
+  position: absolute;
+    
+}
+.productive{
+    margin: 20px;
+    font-family: "OpenSans-Light", serif;
+    color: white;
+    height: 75px;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+
+.more{
+    font-family: "OpenSans-Light", serif;
+    color: white;
+    height: 75px;
+    width: 35%;
+    left: 725px;
+    top: 539px;
+    position: absolute;
+    
+}
+.marge{
+    height: 400px;
+    width: 2%;
+}
+
